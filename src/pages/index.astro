@@ -1,9 +1,9 @@
 ---
 
 // Imports 
-import './styles/_global.css';
-import Footer from './components/Footer.astro';
-import Header from './components/Header.astro';
+import '../styles/_global.css';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
 
 const pageTitle = "Home Page";
 
@@ -21,5 +21,8 @@ const pageTitle = "Home Page";
 		<Header />
 		<h1>{pageTitle}</h1>
 		<Footer />
+		<script>
+			import '../scripts/menu.js';
+		</script>
 	</body>
 </html>
